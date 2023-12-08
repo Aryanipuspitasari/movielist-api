@@ -1,0 +1,48 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Movie-search {
+  margin: 40px 0;
+  padding: 10px;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.Movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1600px; 
+  margin: 0 auto;  
+  margin-bottom: 100px;
+}
+
+.Movie-wrapper {
+  background-color: antiquewhite;
+  width: 300px; 
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.Movie-img {
+  max-width: 100%;  
+
+}
+
+.Movie-date, .Movie-rate {
+  margin-top: 10px;
+}

@@ -1,0 +1,68 @@
+/* Add some general styling */
+
+.LogInContainer {
+ padding: 30px;
+  
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0.5em;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pass-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.pass-input-container input {
+  border-radius: 4px 0 0 4px;
+}
+
+.pass-input-container span {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 0 4px 4px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.error {
+  background: #faa;
+  color: #800;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  
+}
