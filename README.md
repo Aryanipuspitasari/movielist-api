@@ -1,7 +1,5 @@
 # movielist-api
 
-# movielist-api
-
 # Movie Listing App
 
 This is a simple React application that allows users to view a list of popular movies. Users can log in, search for movies, and mark their favorite movies.
